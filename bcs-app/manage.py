@@ -19,6 +19,7 @@ if __name__ == "__main__":
     # 默认使用dev环境
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "backend.settings.ce.saas_prod")
 
+
     try:
         from django.core.management import execute_from_command_line
     except ImportError:
