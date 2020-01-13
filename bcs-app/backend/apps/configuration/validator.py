@@ -62,6 +62,7 @@ def validate_variable_inconfig(config):
             raise ValidationError(_('变量[{}]不合法, {}').format(ikey, NUM_VAR_ERROR_MSG))
 
 
+
 def validate_res_config(config, resource_name, schema):
     err_prefix = '{resource_name} {suffix_msg}'.format(resource_name=resource_name, suffix_msg=_("配置信息格式错误"))
     try:
