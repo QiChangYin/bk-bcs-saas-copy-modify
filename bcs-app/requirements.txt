@@ -16,7 +16,7 @@ requests==2.18.4
 arrow==0.10.0
 django-cors-headers==2.1.0
 
-mako==1.0.7
+mako==1.2.2
 jsonschema==2.6.0
 jsonfield==2.0.2
 
